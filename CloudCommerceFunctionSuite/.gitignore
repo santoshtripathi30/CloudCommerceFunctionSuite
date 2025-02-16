@@ -4,6 +4,10 @@
 # Azure Functions localsettings file
 local.settings.json
 
+
+# Ignore bicep file to avoid expose secrets
+main.bicep
+
 # User-specific files
 *.suo
 *.user
